@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Drew 👋</h1>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+cool+things+one+commit+at+a+time;Learning+fast%2C+shipping+often;Always+down+to+create+something+fun" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+cool+things+one+commit+at+a+time;Learning+fast%2C+shipping+often;Always+down+to+create+something+fun" alt="Typing intro" />
 </div>
 
 <div align="center">
@@ -55,7 +55,7 @@ This README now includes live GitHub-powered widgets so the profile updates auto
 
 If you want, the next easy upgrades are:
 
-- 🎵 a live Spotify "Now Playing" card
+- 🎵 a live Spotify now playing card
 - ⛅ a weather badge for your city
 - 🕒 a local time badge for your timezone
 
