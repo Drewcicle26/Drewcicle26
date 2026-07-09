@@ -97,9 +97,9 @@ def render_section(state: str, now_playing: dict | None) -> str:
     track_name = html.escape(item.get("name", "Unknown track"))
     artists = html.escape(", ".join(artist["name"] for artist in item.get("artists", [])) or "Unknown artist")
     album = html.escape(item.get("album", {}).get("name", "Unknown album"))
-    track_url = item.get("external_urls", {}).get("spotify", PROFILE_URL)
+    track_url = html.escape(item.get("external_urls", {}).get("spotify", PROFILE_URL), quote=True)
     images = item.get("album", {}).get("images", [])
-    image_url = images[0]["url"] if images else ""
+    image_url = html.escape(images[0]["url"], quote=True) if images else ""
     image_html = f'  <a href="{track_url}"><img src="{image_url}" width="280" alt="Album art for {track_name} by {artists}" /></a>\n' if image_url else ""
 
     return f"""{START_MARKER}

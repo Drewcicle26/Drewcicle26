@@ -8,7 +8,6 @@ on:
     branches:
       - main
     paths:
-      - README.md
       - .github/scripts/update_spotify_readme.py
       - .github/workflows/update-spotify-now-playing.yml
 
@@ -42,6 +41,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet && exit 0
-          git commit -m "Update Spotify now playing"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Spotify now playing"
+            git push
+          fi
