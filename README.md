@@ -1,4 +1,4 @@
-# <div align="center">Hey, I'm Drew 👋</div>
+<h1 align="center">Hey, I'm Drew 👋</h1>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+cool+things+one+commit+at+a+time;Learning+fast%2C+shipping+often;Always+down+to+create+something+fun" alt="Typing intro" />
@@ -7,7 +7,7 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Drewcicle26&style=for-the-badge&color=58A6FF" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/Drewcicle26?style=for-the-badge&color=1F6FEB&labelColor=0D1117" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/Drewcicle26?style=for-the-badge&color=F2C14E&labelColor=0D1117" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/last-commit/Drewcicle26/Drewcicle26?style=for-the-badge&color=F2C14E&labelColor=0D1117" alt="Last updated" />
 </div>
 
 ---
