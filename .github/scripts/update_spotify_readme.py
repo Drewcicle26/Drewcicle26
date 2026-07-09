@@ -58,24 +58,35 @@ def get_access_token() -> str | None:
     return payload.get("access_token")
 
 
-def get_now_playing(token: str) -> dict | None:
+def get_now_playing(token: str) -> tuple[str, dict | None]:
     status, payload = request_json(
         "https://api.spotify.com/v1/me/player/currently-playing",
-        headers={"Authorization": f"******"},
+        headers={"Authorization": "Bearer " + token},
     )
+    if status == 204:
+        return "offline", None
     if status != 200:
-        return None
+        return "unavailable", None
     if not payload.get("is_playing") or not payload.get("item"):
-        return None
-    return payload
+        return "offline", None
+    return "playing", payload
 
 
-def render_section(now_playing: dict | None) -> str:
-    if not now_playing:
+def render_section(state: str, now_playing: dict | None) -> str:
+    if state == "setup":
+        message = "🎧 Spotify now playing will show here after the repo secrets are connected."
+    elif state == "unavailable":
+        message = "🎧 Spotify status is unavailable right now."
+    elif state == "offline":
+        message = "🎧 Not playing anything on Spotify right now."
+    else:
+        message = ""
+
+    if state != "playing" or not now_playing:
         return f"""{START_MARKER}
 <div align="center">
   <a href="{PROFILE_URL}">
-    <strong>🎧 Not playing anything on Spotify right now.</strong>
+    <strong>{message}</strong>
   </a>
   <br />
   <sub>Powered by a GitHub Actions refresh instead of a third-party widget.</sub>
@@ -115,8 +126,12 @@ def update_readme(section: str) -> None:
 
 def main() -> None:
     token = get_access_token()
-    now_playing = get_now_playing(token) if token else None
-    update_readme(render_section(now_playing))
+    if not token:
+        update_readme(render_section("setup", None))
+        return
+
+    state, now_playing = get_now_playing(token)
+    update_readme(render_section(state, now_playing))
 
 
 if __name__ == "__main__":
