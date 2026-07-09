@@ -59,8 +59,10 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=St.%20Johns%20County%20Weather&query=%24.current_condition%5B0%5D.temp_F&suffix=%C2%B0F&color=58A6FF&labelColor=0D1117&url=https%3A%2F%2Fwttr.in%2F29.9012%2C-81.4098%3Fformat%3Dj1" alt="St. Johns County weather" />
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=St.%20Johns%20County%20Time&query=%24.time&color=1F6FEB&labelColor=0D1117&url=https%3A%2F%2Ftimeapi.io%2Fapi%2FTime%2Fcurrent%2Fzone%3FtimeZone%3DAmerica%252FNew_York" alt="St. Johns County local time" />
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=St.%20Johns%20County%20ET&query=%24.time&color=1F6FEB&labelColor=0D1117&url=https%3A%2F%2Ftimeapi.io%2Fapi%2FTime%2Fcurrent%2Fzone%3FtimeZone%3DAmerica%252FNew_York" alt="St. Johns County local time" />
 </div>
+
+<div align="center"><sub>Local time is pulled from the America/New_York timezone (Eastern Time).</sub></div>
 
 ## 🛠️ Skills
 
