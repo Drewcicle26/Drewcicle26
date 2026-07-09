@@ -51,11 +51,15 @@
 
 ## 🎵 Spotify: Now Playing
 
+<!-- spotify-start -->
 <div align="center">
   <a href="https://open.spotify.com/user/andrew.peter.link?si=7e84c22874c04bc3">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=andrew.peter.link&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=true&bar_color=58a6ff&bar_color_cover=false" alt="Spotify now playing" />
+    <strong>🎧 Spotify now playing will show here after the repo secrets are connected.</strong>
   </a>
+  <br />
+  <sub>Powered by a GitHub Actions refresh instead of a third-party widget.</sub>
 </div>
+<!-- spotify-end -->
 
 ## 🌤️ Local Weather & Time (St. Johns County, FL)
 

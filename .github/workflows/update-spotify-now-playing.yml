@@ -1,0 +1,47 @@
+name: Update Spotify Now Playing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/scripts/update_spotify_readme.py
+      - .github/workflows/update-spotify-now-playing.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-spotify:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update README section
+        env:
+          README_PATH: README.md
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          SPOTIFY_PROFILE_URL: https://open.spotify.com/user/andrew.peter.link?si=7e84c22874c04bc3
+        run: python .github/scripts/update_spotify_readme.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Spotify now playing"
+          git push
