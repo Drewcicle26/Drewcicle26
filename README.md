@@ -55,11 +55,11 @@
   <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=Drewcicle26&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=true&bar_color=58a6ff&bar_color_cover=false" alt="Spotify now playing" />
 </div>
 
-## 🌤️ Local Weather & Time (St Johns, FL)
+## 🌤️ Local Weather & Time (St. Johns, FL)
 
 <div align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=St%20Johns%20Weather&query=%24.current_condition%5B0%5D.temp_F&suffix=%C2%B0F&color=58A6FF&labelColor=0D1117&url=https%3A%2F%2Fwttr.in%2FSt%2520Johns%252CFL%3Fformat%3Dj1" alt="St Johns weather" />
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=St%20Johns%20Time&query=%24.datetime&color=1F6FEB&labelColor=0D1117&url=https%3A%2F%2Fworldtimeapi.org%2Fapi%2Ftimezone%2FAmerica%2FNew_York" alt="St Johns local time" />
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=St.%20Johns%20Weather&query=%24.current_condition%5B0%5D.temp_F&suffix=%C2%B0F&color=58A6FF&labelColor=0D1117&url=https%3A%2F%2Fwttr.in%2FSt.%2520Johns%252CFL%3Fformat%3Dj1" alt="St. Johns weather" />
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=St.%20Johns%20Time&query=%24.time&color=1F6FEB&labelColor=0D1117&url=https%3A%2F%2Ftimeapi.io%2Fapi%2FTime%2Fcurrent%2Fzone%3FtimeZone%3DAmerica%252FNew_York" alt="St. Johns local time" />
 </div>
 
 ## 🛠️ Skills
