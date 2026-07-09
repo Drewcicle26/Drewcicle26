@@ -59,7 +59,7 @@ If you want, the next easy upgrades are:
 - ⛅ a weather badge for your city
 - 🕒 a local time badge for your timezone
 
-Those personal widgets need your exact Spotify account, city, and timezone to look right.
+Those personal widgets need your Spotify account details, city name, and timezone identifier to work correctly.
 
 ## 📫 Connect
 
