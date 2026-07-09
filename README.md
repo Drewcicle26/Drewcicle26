@@ -22,8 +22,8 @@
 ## 📊 Live GitHub Snapshot
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Drewcicle26&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drewcicle26&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Drewcicle26&theme=github_dark" alt="GitHub stats" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Drewcicle26&theme=github_dark" alt="Top languages" />
 </div>
 
 <div align="center">
@@ -37,7 +37,7 @@
 ## 🏆 Highlights
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Drewcicle26&theme=algolia&no-frame=true&no-bg=true&margin-w=12&margin-h=12" alt="GitHub trophies" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Drewcicle26&theme=github_dark" alt="GitHub profile details" />
 </div>
 
 ## 🧰 Toolbox
@@ -52,7 +52,9 @@
 ## 🎵 Spotify: Now Playing
 
 <div align="center">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=Drewcicle26&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=true&bar_color=58a6ff&bar_color_cover=false" alt="Spotify now playing" />
+  <a href="https://open.spotify.com/user/andrew.peter.link?si=7e84c22874c04bc3">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=andrew.peter.link&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=true&bar_color=58a6ff&bar_color_cover=false" alt="Spotify now playing" />
+  </a>
 </div>
 
 ## 🌤️ Local Weather & Time (St. Johns County, FL)
