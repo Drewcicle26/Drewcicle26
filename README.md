@@ -49,17 +49,33 @@
   <img src="https://img.shields.io/badge/Create-With%20Intent-EA4AAA?style=for-the-badge&labelColor=0D1117" alt="Create with intent" />
 </div>
 
-## 🌐 Profile Extras
+## 🎵 Spotify: Now Playing
 
-This README now includes live GitHub-powered widgets so the profile updates automatically over time.
+<div align="center">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=Drewcicle26&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=true&bar_color=58a6ff&bar_color_cover=false" alt="Spotify now playing" />
+</div>
 
-If you want, the next easy upgrades are:
+## 🌤️ Local Weather & Time (St Johns, FL)
 
-- 🎵 a live Spotify now playing card
-- ⛅ a weather badge for your city
-- 🕒 a local time badge for your timezone
+<div align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=St%20Johns%20Weather&query=%24.current_condition%5B0%5D.temp_F&suffix=%C2%B0F&color=58A6FF&labelColor=0D1117&url=https%3A%2F%2Fwttr.in%2FSt%2520Johns%252CFL%3Fformat%3Dj1" alt="St Johns weather" />
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=St%20Johns%20Time&query=%24.datetime&color=1F6FEB&labelColor=0D1117&url=https%3A%2F%2Fworldtimeapi.org%2Fapi%2Ftimezone%2FAmerica%2FNew_York" alt="St Johns local time" />
+</div>
 
-Those personal widgets need separate Spotify authentication setup plus your city name and timezone identifier to work correctly.
+## 🛠️ Skills
+
+<div align="center">
+  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/API-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688" alt="API" />
+  <img src="https://img.shields.io/badge/NodeJS-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="NodeJS" />
+  <img src="https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Discord.js-0D1117?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord.js" />
+  <img src="https://img.shields.io/badge/CSS-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS" />
+  <img src="https://img.shields.io/badge/PHP-0D1117?style=for-the-badge&logo=php&logoColor=777BB4" alt="PHP" />
+  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+  <img src="https://img.shields.io/badge/HTML-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML" />
+  <img src="https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
+</div>
 
 ## 📫 Connect
 
